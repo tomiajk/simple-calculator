@@ -4,16 +4,18 @@ body {
 }
 
 button {
-  height: 80px;
+  height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   background-color: rgb(46, 50, 71);
-  font-size: 18px;
-  font-weight: 700;
-  border: none;
+  font-size: 22px;
+  font-weight: 400;
   cursor: pointer;
+  border: 1px solid rgb(180, 181, 219);
+  font-family: "Cormorant Garamond";
+
 }
 
 .main-body {
@@ -21,17 +23,20 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: end;
+  background-color: rgb(180, 181, 219);
 }
 
 
 .simple-calculator-buttons{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 1px;
 }
 
 .last-row {
   grid-template-columns: 1fr 1fr 2fr;
+  border-bottom: none;
+}
+.last-row button {
   border-bottom: none;
 }
 
@@ -40,6 +45,10 @@ button {
 }
 
 .equal-to-button {
-  background-color: rgb(223, 104, 124);
+  background-color: rgb(14, 16, 86);
 }
- 
+
+.sign-button {
+  font-weight: 200;
+  font-size: 32px;
+}
