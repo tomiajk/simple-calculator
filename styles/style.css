@@ -13,8 +13,9 @@ button {
   font-size: 22px;
   font-weight: 400;
   cursor: pointer;
-  border: 1px solid rgb(180, 181, 219);
+  border: 1px solid;
   font-family: "Cormorant Garamond";
+  border-radius: 5px;
 
 }
 
@@ -23,7 +24,30 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  background-color: rgb(180, 181, 219);
+}
+
+.display-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-bottom: 3px;
+  padding-right: 5px;
+}
+
+.display-box-small {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 3px;
+  padding-right: 5px;
+  font-size: 20px;
+}
+
+.display-box-main {
+  font-size: 72px;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 3px;
+
 }
 
 
