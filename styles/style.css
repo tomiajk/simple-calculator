@@ -42,7 +42,8 @@ button:hover {
   justify-content: end;
   margin-bottom: 3px;
   padding-right: 5px;
-  font-size: 20px;
+  font-size: 26px;
+  height: 30px;
 }
 
 .display-box-main {
@@ -50,7 +51,11 @@ button:hover {
   display: flex;
   justify-content: end;
   margin-bottom: 3px;
+  height: 82px;
+}
 
+.final-answer {
+  font-size: 72px;
 }
 
 
@@ -76,6 +81,6 @@ button:hover {
 }
 
 .sign-button {
-  font-weight: 200;
-  font-size: 32px;
+  font-weight: 100;
+  font-size: 30px;
 }

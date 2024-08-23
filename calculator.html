@@ -14,26 +14,30 @@
 <body>
   <div class="main-body">
     <div class="display-box">
-      <div class="display-box-small">
-        379440
-      </div>
-      <div class="display-box-main">
-      </div>
+
+      <div class="display-box-small js-top-display"></div>
+
+      <div class="display-box-main"></div>
+
+      <div class="display-box-small js-answer-box"></div>
     </div>
 
     <div class="calculator-buttons">
       <div class="">
         <div class="simple-calculator-buttons">
           <button type="button">CE</button>
-          <button type="button">C</button>
-          <button type="button">
+
+          <button type="button" class="js-clear-button">C</button>
+
+          <button type="button" class="js-delete-button">
             <img src="assets/backspace-svgrepo-com.svg" alt="">
           </button>
+     
           <button type="button">
             <img src="assets/divide-svgrepo-com.svg" alt="">
           </button>
 
-          <button type="button" class="number-button oneButton">7</button>
+          <button type="button" class="number-button">7</button>
           <button type="button" class="number-button">8</button>
           <button type="button" class="number-button">9</button>
           <button type="button" class="sign-button">x</button>
@@ -46,13 +50,13 @@
           <button type="button" class="number-button">1</button>
           <button type="button" class="number-button">2</button>
           <button type="button" class="number-button">3</button>
-          <button type="button" class="sign-button">+</button>
+          <button type="button" class="sign-button js-add-button">+</button>
         </div>
 
         <div class="simple-calculator-buttons last-row">
           <button type="button" class="sign-button number-button">.</button>
           <button type="button" class="number-button">0</button>
-          <button type="button" class="equal-to-button sign-button">=</button>
+          <button type="button" class="js-equal-to-button sign-button ">=</button>
         </div>
 
       </div>
